@@ -1,9 +1,9 @@
 import express from 'express'
 
-const app = express();
+import priceRoutes from './src/components/prices/index.js'
 
-import priceRoutes from './src/components/prices/index.js';
+const app = express()
 
-app.use('/prices', priceRoutes);
+app.use('/prices', priceRoutes)
 
-export default app;
+export default app

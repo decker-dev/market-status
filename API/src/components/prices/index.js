@@ -1,9 +1,8 @@
-import {Router} from "express";
-import * as pricesController from "./pricesController.js";
+import { Router } from 'express'
+import * as pricesController from './pricesController.js'
 
-const router = Router();
+const router = Router()
 
-router.get("/:pair", pricesController.pairPrice);
+router.get('/:pair', pricesController.pairPrice)
 
-
-export default router;
+export default router

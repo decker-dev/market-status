@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab4852d2-295f-4cf5-badd-fd9f5ba8e1c5" name="Changes" comment="fix" />
+    <list default="true" id="ab4852d2-295f-4cf5-badd-fd9f5ba8e1c5" name="Changes" comment="fix">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/API/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/API/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/API/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/API/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/components/prices/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/components/prices/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/components/prices/prices.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/components/prices/prices.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/components/prices/pricesController.js" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/components/prices/pricesController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/components/prices/pricesService.js" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/components/prices/pricesService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/utils/response.js" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/utils/response.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +31,29 @@
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1649688373" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1649688372" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -109,7 +143,7 @@
       <workItem from="1649298053865" duration="10369000" />
       <workItem from="1649465808587" duration="8000" />
       <workItem from="1649603907631" duration="12172000" />
-      <workItem from="1649648583865" duration="9675000" />
+      <workItem from="1649648583865" duration="10807000" />
     </task>
     <task id="LOCAL-00001" summary="fix">
       <created>1649645903062</created>
