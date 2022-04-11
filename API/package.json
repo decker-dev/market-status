@@ -1,0 +1,24 @@
+{
+  "name": "market-status",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon API/index.js",
+    "test": "NODE_OPTIONS=--experimental-vm-modules  jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "express": "^4.17.3",
+    "ws": "^8.5.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "nodemon": "2.0.7"
+  }
+}
