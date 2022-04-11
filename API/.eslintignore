@@ -1,0 +1,12 @@
+node_modules
+dist
+scripts/*
+.eslintrc.js
+config
+setupTests.js
+jest.config.js
+.next
+out
+coverage
+next.config.js
+etc/*.js

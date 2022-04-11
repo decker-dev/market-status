@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab4852d2-295f-4cf5-badd-fd9f5ba8e1c5" name="Changes" comment="fix">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/.eslintignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/API/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/API/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/API/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/API/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/src/components/prices/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/components/prices/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/src/components/prices/prices.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/components/prices/prices.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/src/components/prices/pricesController.js" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/components/prices/pricesController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/src/components/prices/pricesService.js" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/components/prices/pricesService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/src/utils/response.js" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/utils/response.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +137,7 @@
       <workItem from="1649298053865" duration="10369000" />
       <workItem from="1649465808587" duration="8000" />
       <workItem from="1649603907631" duration="12172000" />
-      <workItem from="1649648583865" duration="10807000" />
+      <workItem from="1649648583865" duration="11437000" />
     </task>
     <task id="LOCAL-00001" summary="fix">
       <created>1649645903062</created>
