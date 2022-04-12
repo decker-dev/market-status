@@ -1,4 +1,4 @@
-#Market Status
+# Market Status
 
 The api is used to obtain information on the pairs between one currency and another.
 
