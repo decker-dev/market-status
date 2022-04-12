@@ -1,0 +1,132 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Market Status",
+    "version": "1.0"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:3000"
+    }
+  ],
+  "paths": {
+    "/prices/{pair}": {
+      "parameters": [
+        {
+          "schema": {
+            "type": "string"
+          },
+          "name": "pair",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "get": {
+        "summary": "Get Pair Info",
+        "tags": [],
+        "operationId": "",
+        "description": "Retrive information to pair",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "description": "",
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "boolean"
+                    },
+                    "statusCode": {
+                      "type": "number"
+                    },
+                    "body": {
+                      "type": "string",
+                      "minLength": 1
+                    }
+                  },
+                  "required": [
+                    "error",
+                    "statusCode",
+                    "body"
+                  ],
+                  "x-examples": {
+                    "example-1": {
+                      "error": false,
+                      "statusCode": 200,
+                      "body": "Best bid price: 39490 amount: 15.992198809999998, Best ask price: 39492 amount: 8.176418089999999"
+                    }
+                  }
+                },
+                "examples": {
+                  "example-1": {
+                    "value": {
+                      "error": false,
+                      "statusCode": 200,
+                      "body": "Best bid price: 39504 amount: 11.972, Best ask price: 39506 amount: 8.516"
+                    }
+                  }
+                }
+              },
+              "application/xml": {
+                "schema": {
+                  "type": "object",
+                  "properties": {}
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "description": "",
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "boolean"
+                    },
+                    "statusCode": {
+                      "type": "number"
+                    },
+                    "body": {
+                      "type": "string",
+                      "minLength": 1
+                    }
+                  },
+                  "required": [
+                    "error",
+                    "statusCode",
+                    "body"
+                  ],
+                  "x-examples": {
+                    "example-1": {
+                      "error": true,
+                      "statusCode": 404,
+                      "body": "Pair not found"
+                    }
+                  }
+                },
+                "examples": {
+                  "example-1": {
+                    "value": {
+                      "error": true,
+                      "statusCode": 404,
+                      "body": "Pair not found"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {}
+  }
+}

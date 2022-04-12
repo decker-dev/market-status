@@ -10,9 +10,14 @@ export const pairPrice = (req, res) => {
     .then(() => {
       obtainTicker(pair, WS_URL).then(data => {
         const { bid, bidSize, ask, askSize } = formatContent(data)
-        success(req, res, `Best bid price: ${bid} amount: ${bidSize}, Best ask price: ${ask} amount: ${askSize}`)
+        success(req, res, `Best bid price: ${bid} amount: ${bidSize.toFixed(3)}, Best ask price: ${ask} amount: ${askSize.toFixed(3)}`)
       })
-    }).catch(err => {
-      error(req, res, err.message)
+    }).catch(() => {
+      error(req, res, 'Pair not found', 404)
     })
+}
+export const marketDepth = (req, res) => {
+  const { pair, operation, amount } = req.params
+  // TODO implement market depth
+  res.send(`${pair} ${operation} ${amount}`)
 }
