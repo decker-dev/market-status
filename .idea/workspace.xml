@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab4852d2-295f-4cf5-badd-fd9f5ba8e1c5" name="Changes" comment="fix">
-      <change afterPath="$PROJECT_DIR$/API/market_status_openapi.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/API/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/API/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/API/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/src/components/prices/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/components/prices/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/src/components/prices/pricesController.js" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/components/prices/pricesController.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +140,7 @@
       <workItem from="1649648583865" duration="11437000" />
       <workItem from="1649711768706" duration="2802000" />
       <workItem from="1649723995485" duration="32000" />
-      <workItem from="1649724041854" duration="4549000" />
+      <workItem from="1649724041854" duration="5842000" />
     </task>
     <task id="LOCAL-00001" summary="fix">
       <created>1649645903062</created>
